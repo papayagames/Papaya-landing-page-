@@ -1,0 +1,22 @@
+.card {
+  font-family: "Sora", sans-serif;
+  background: rgb(21, 24, 0);
+  padding: 6.5vh 0 0 0;
+  color: white;
+  display: grid;
+  justify-items: center;
+}
+.cardhead {
+  width: 36%;
+  text-align:center;
+}
+.carp{
+    text-align:center;
+}
+
+
+@media all and (max-width:768px){
+.cardhead {
+  width: 66%;
+}
+}
