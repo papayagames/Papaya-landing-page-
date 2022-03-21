@@ -118,6 +118,9 @@
     width: 95%;
     margin: 10.2vh 0 5.4vh -8vw;
   }
+  .hicons {
+    margin-bottom: 3.5vh;
+  }
 }
 
 @media all and (max-width: 1300px) {
@@ -130,22 +133,21 @@
   }
 }
 
-@media all and (max-width: 1176px) {
-  .hdetails {
-    width: 95%;
-    margin: 10.2vh 0 5.4vh -5vw;
-    /* background: red; */
-  }
-  .hbtn1,
-  .hdetails {
-    font-size: 14px;
-  }
-}
-
-@media all and (max-width: 1036px) {
+@media all and (max-width: 1236px) {
   .hdetails {
     width: 100%;
     margin: 10.2vh 0 5.4vh 0vw;
+    grid-template-columns: 30% 70%;
+    column-gap:0;
+    /* background:red; */
+  }
+  .hbtncon{
+    /* background:yellow; */
+    width:60%
+  }
+  .hcon2{
+    width:64%;
+    /* background:red; */
   }
 }
 
@@ -161,7 +163,7 @@
     margin-bottom: 5vh;
   }
   .hp {
-    font-size: 15.6px;
+    font-size: 17.6px;
   }
   .hbtncon {
     display: block;
@@ -169,30 +171,32 @@
     width: 66%;
   }
   .hbtn1 {
-    margin: 5vh 0 4vh 0;
-    font-size:18px;
-    padding:2vh
+    margin: 2vh 0 4vh 0;
+    font-size: 18px;
+    padding: 2vh;
   }
   .hbtn2 {
-    width: 52%;
+    width: 40%;
   }
   .hdetails {
     display: block;
-    margin:4vh 0 0 0;
+    margin: 4vh 0 0 0;
   }
   .seconddiv {
     display: block;
   }
-  .firstdiv,.hcon4{
-    display:none;
+  .firstdiv,
+  .hcon4 {
+    display: none;
   }
-  .psecond{
-  /* background:purple; */
-  width:50%;
-  font-size:24px;
-  margin:0 0 3vh 0;
+  .psecond {
+    /* background:purple; */
+    width: 45%;
+    font-size: 24px;
+    margin: 0 0 3vh 0;
   }
-  .hmbtncon{
-  font-size:20px;
+  .hmbtncon {
+    font-size: 20px;
+    padding:1vh 2vw 1vh 2vw;
   }
 }
