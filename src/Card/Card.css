@@ -1,22 +1,115 @@
-.card {
-  font-family: "Sora", sans-serif;
-  background: rgb(21, 24, 0);
-  padding: 6.5vh 0 0 0;
-  color: white;
-  display: grid;
-  justify-items: center;
-}
-.cardhead {
-  width: 36%;
-  text-align:center;
-}
-.carp{
-    text-align:center;
+@media all and (max-width: 2500px) {
+  .card {
+    font-family: "Sora", sans-serif;
+    background: rgb(21, 24, 0);
+    padding: 6.5vh 0 0 0;
+    color: white;
+    display: grid;
+    justify-items: center;
+  }
+  .cardhead {
+    width: 36%;
+    text-align: center;
+  }
+  .carp {
+    text-align: center;
+    margin-bottom: 3.6vh;
+  }
+  .joinedcard {
+    display: grid;
+    /* background: red; */
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 5%;
+    width: 60%;
+    justify-items: center;
+  }
+  .cards {
+    background: rgb(33, 36, 43);
+    border-top: 4px solid rgb(196, 86, 0);
+    padding: 1.36vh 1.28vw 2.28vh 1.16vw;
+  }
+  .cards1 {
+    background: rgb(33, 36, 43);
+    /* border-top: 4px solid rgb(196,86,0); */
+    padding: 1.36vh 1.28vw 2.28vh 1.16vw;
+    opacity: 0.8;
+  }
+  .chr {
+    background: rgb(196, 86, 0);
+    width: 14%;
+    margin: 0;
+  }
+  .cardsh1 {
+    font-size: clamp(18px, 1.7vw, 2.1vw);
+  }
+  .cardsbtn {
+    background: transparent;
+    padding: 2vh 2vw 2vh 2vw;
+    margin: 0;
+    color: white;
+    font-family: "Sora", sans-serif;
+    border: 2px solid rgb(255, 108, 0);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .cardsh5 {
+    background: rgb(255, 108, 0);
+    padding: 0 0.5vw 0 0.5vw;
+    border-radius: 4px;
+    width: 40%;
+    margin: -1vh;
+  }
+  .cardbtn1 {
+    text-align: center;
+    background: transparent;
+  }
 }
 
-
-@media all and (max-width:768px){
-.cardhead {
-  width: 66%;
+@media all and (max-width: 1500px) {
+  .joinedcard {
+    width: 80%;
+  }
 }
+
+@media all and (max-width: 1230px) {
+  .joinedcard {
+    width: 88%;
+  }
+}
+
+@media all and (max-width: 1036px) {
+  .joinedcard {
+    width: 97%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .cardhead {
+    width: 66%;
+  }
+  .carp {
+    width: 80%;
+  }
+  .joinedcard {
+    display: block;
+    width: 42%;
+  }
+  .cards{
+    margin: 0 0 4vh 0;
+    padding-bottom:6vh;
+  }
+}
+
+@media all and (max-width:550px){
+   .joinedcard {
+    display: block;
+    width: 62%;
+  }
+}
+
+@media all and (max-width:450px){
+   .joinedcard {
+    display: block;
+    width: 72%;
+  }
 }
