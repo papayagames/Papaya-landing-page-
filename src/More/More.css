@@ -41,13 +41,13 @@
   .moreimg {
     width: 100%;
     display: grid;
-    align-self: center;
+    align-self: end;
     margin-bottom: 20vh;
   }
   .moreimg2 {
     width: 100%;
     display: grid;
-    align-self: center;
+    align-self: end;
     margin-bottom: 16vh;
   }
 }

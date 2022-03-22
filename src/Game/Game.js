@@ -52,7 +52,7 @@ const Game = () => {
         a game, borrow a game, sell a game. With us, you will finally own the
         games!
       </p>
-      <button className="gamebtn">
+      <button className="gamebtn2">
         MORE ABOUT <span className="hcolor">FRUITWALLET</span>
       </button>
       <img src={bigdash2} alt="gameimg" className="gameimg1" />
@@ -87,7 +87,7 @@ const Game = () => {
         Publish games without middlemen with the help of GameContract.io in 5
         minutes. Create Tokens on the blockchain in the Smart Contracts factory!
       </p>
-      <button className="gamebtn">
+      <button className="gamebtn2">
         MORE ABOUT <span className="hcolor">GAMECONTRACT</span>
       </button>
       <img src={dash4} alt="gameimg" className="gameimg2" />

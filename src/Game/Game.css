@@ -17,7 +17,6 @@
 
   .gamep {
     text-align: center;
-    /* background:red; */
     width: 26%;
     font-weight: 400, Regular;
     margin: 0 0 6.6vh 0;
@@ -28,19 +27,16 @@
   }
   .gameimg1 {
     width: 64vw;
-    /* background:red; */
-    padding:4vh;
-    margin: 0 0 0 12vw;
+    margin: 0 0 0 14vw;
   }
 
   .gameimg2 {
     width: 64vw;
-    /* background:red; */
-    padding:4vh;
-    margin: 0 0 13.48vh 12vw;
+    margin: 0 0 13.48vh 14vw;
+    object-fit:cover;
   }
  
-  .gamebtn {
+  .gamebtn,.gamebtn2 {
     font-size: clamp(16px, 1.2vw, 1.4vw);
     border: 2px solid rgb(255, 108, 0);
     padding: 1vh 1vw 1vh 1vw;
@@ -49,6 +45,7 @@
     border-radius: 8px;
     margin: 3vh 0 12vh 0;
   }
+  
 }
 
 @media all and (max-width: 1036px) and (orientation: portrait) {
@@ -92,5 +89,8 @@
     margin: 0 0 0 1vw;
     padding: 0 0 0 11vw;
 
+  }
+  .gamebtn2{
+    margin: 0 0 6vh 0;
   }
 }
