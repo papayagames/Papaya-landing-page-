@@ -30,10 +30,12 @@
   .gametitle {
     font-size: 14px;
     background: red;
+    width: 30vw;
   }
   .gamehead {
     font-size: 24px;
     background: red;
+    width: 80vw;
   }
   .cardsp {
     font-size: 17px;
