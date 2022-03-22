@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./Navbar/Navbar";
 import Header from "./Header/Header";
 import Game from "./Game/Game";
+import Main from "./Main/Main";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Header />
       <Game />
+      <Main/>
     </div>
   );
 }
