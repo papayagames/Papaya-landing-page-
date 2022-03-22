@@ -3,8 +3,8 @@
     background: url("../images/bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    display: grid;
     background-position: center center;
+    display: grid;
     /* background: red; */
     padding: 7.12vh 2.3vw 0vh 28.5vw;
     color: white;

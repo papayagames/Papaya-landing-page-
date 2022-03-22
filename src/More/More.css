@@ -1,0 +1,71 @@
+@media all and (max-width: 2500px) {
+  .more {
+    /* background: red; */
+    background: url("../images/morebg.svg");
+    display: grid;
+    justify-items: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center center; */
+  }
+  .morecon {
+    /* background: green; */
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .firstmore {
+    width: 80%;
+  }
+  .moreh4 {
+    background: rgb(33, 46, 33);
+    padding: 1vh 1vw 1vh 1vw;
+    text-align: center;
+    width: 30%;
+    border-radius: 12px;
+  }
+  .moreh1 {
+    font-size: clamp(27px, 2.5vw, 2.6vw);
+  }
+  .morebtn {
+    font-size: clamp(16px, 0.7vw, 0.8vw);
+    background: transparent;
+    padding: 1vh 1vw 1vh 1vw;
+    border: 2px solid rgb(255, 105, 0);
+    border-radius: 12px;
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-weight: 600, semi-bold;
+  }
+  .moreimg {
+    width: 100%;
+    display: grid;
+    align-self: center;
+    margin-bottom: 20vh;
+  }
+  .moreimg2 {
+    width: 100%;
+    display: grid;
+    align-self: center;
+    margin-bottom: 16vh;
+  }
+}
+
+@media all and (max-width: 1234px) {
+  .moreh4 {
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .morecon {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  .firstmore {
+    margin: 0 0 5vh 0;
+  }
+}

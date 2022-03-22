@@ -14,6 +14,7 @@
     border: none;
     padding: 1vh 2vw 1vh 2vw;
   }
+
   .gamep {
     text-align: center;
     /* background:red; */
@@ -21,8 +22,32 @@
     font-weight: 400, Regular;
     margin: 0 0 6.6vh 0;
   }
+
   .gameimg {
     width: 49.24vw;
+  }
+  .gameimg1 {
+    width: 64vw;
+    /* background:red; */
+    padding:4vh;
+    margin: 0 0 0 12vw;
+  }
+
+  .gameimg2 {
+    width: 64vw;
+    /* background:red; */
+    padding:4vh;
+    margin: 0 0 13.48vh 12vw;
+  }
+ 
+  .gamebtn {
+    font-size: clamp(16px, 1.2vw, 1.4vw);
+    border: 2px solid rgb(255, 108, 0);
+    padding: 1vh 1vw 1vh 1vw;
+    background: transparent;
+    color: white;
+    border-radius: 8px;
+    margin: 3vh 0 12vh 0;
   }
 }
 
@@ -30,12 +55,12 @@
   .gametitle {
     font-size: 14px;
     width: 12vw;
-    text-align:center;
+    text-align: center;
   }
   .gamehead {
     font-size: 24px;
     width: 50vw;
-    text-align:center;
+    text-align: center;
   }
   .cardsp {
     font-size: 17px;
@@ -46,10 +71,26 @@
   .gamep {
     width: 66%;
   }
+  .gametitle {
+    font-size: 14px;
+    width: 30vw;
+    text-align: center;
+  }
+  .gamehead {
+    font-size: 24px;
+    width: 80vw;
+    text-align: center;
+  }
   .gameimg {
     width: 86vw;
   }
   .gamehead {
     font-size: 24px;
+  }
+  .gameimg1 {
+    width: 84vw;
+    margin: 0 0 0 1vw;
+    padding: 0 0 0 11vw;
+
   }
 }
