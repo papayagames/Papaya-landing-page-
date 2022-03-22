@@ -8,6 +8,9 @@ import bigdash2 from "../images/bigdash2.svg";
 import dash3 from "../images/dash3.svg";
 import dash4 from "../images/dash4.svg";
 import dashimg from "../images/dashimg.svg";
+import illus4 from "../images/illus4.svg"
+import illus5 from "../images/illus5.svg"
+import illus6 from "../images/illus6.svg"
 
 const Game = () => {
   return (
@@ -97,7 +100,37 @@ const Game = () => {
       </h1>
 
       <div className="role">
-        
+        <div className="rolemain">
+          <div className="rolecon">
+            <img src={illus4} alt="" className="roleimg" />
+            <h2 className="roleh2">
+              <span className="hcolor">Liquidity pool </span> with video games
+              <span className="hcolor">.</span>
+            </h2>
+            <hr className="rolehr"></hr>
+            <p className="rolep">You have an impact on the price of games!</p>
+          </div>
+          <div className="rolecon">
+            <img src={illus5} alt="" className="roleimg" />
+            <h2 className="roleh2">
+              DAO <span className="hcolor">publisher</span>.
+            </h2>
+            <hr className="rolehr"></hr>
+            <p className="rolep">
+              $papa Holders decide which games get released!
+            </p>
+          </div>
+          <div className="rolecon">
+            <img src={illus6} alt="" className="roleimg" />
+            <h2 className="roleh2">
+              Independent <span className="hcolor">advertising system</span>!
+            </h2>
+            <hr className="rolehr"></hr>
+            <p className="rolep">
+              Hit up players based on their past purchases!
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

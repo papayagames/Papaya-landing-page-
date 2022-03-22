@@ -46,6 +46,42 @@
     margin: 3vh 0 12vh 0;
   }
   
+.role{
+  /* background:red; */
+  width:100%;
+  display:grid;
+  justify-items:center;
+  margin:3vh 0 4vh 0;
+}
+.rolemain{
+  /* background:green; */
+  width:60%;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap:3%;
+}
+.rolecon{
+  /* background:yellow; */
+  display:grid;
+  justify-items:center;
+}
+.roleimg{
+  width:4vw;
+}
+.roleh2{
+  text-align:center;
+  font-size:clamp(20px,1.8vw,1.9vw);
+}
+.rolehr{
+  width:10%;
+  background:rgb(255,105,0);
+  border:none;
+  border-radius:8px;
+}
+.rolep{
+  opacity:0.7;
+  text-align:center;
+}
 }
 
 @media all and (max-width: 1036px) and (orientation: portrait) {
@@ -93,4 +129,24 @@
   .gamebtn2{
     margin: 0 0 6vh 0;
   }
+
+.rolemain{
+  width:50%;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap:3%;
+}
+.roleimg{
+  width:10vw;
+  margin: 3vh 0 0 0;
+}
+.rolehr{
+  width:20%;
+  height:1vh;
+}
+.roleh2,.rolep{
+  margin:0;
+}
+.rolep{
+  margin-bottom:2vh;
+}
 }
