@@ -1,10 +1,8 @@
 @media all and (max-width: 2500px) {
   .main {
     background: rgb(21, 24, 0);
-    /* height: 50vh; */
     display: grid;
     justify-items: center;
-    /* padding: 0 0 3vh 0; */
   }
   .mainfirst {
     /* background:yellow; */
@@ -12,9 +10,10 @@
     width: 80%;
     display: grid;
   }
-  .mainp,.mh3p {
+  .mainp,
+  .mh3p {
     opacity: 0.6;
-    color:white;
+    color: white;
   }
   .mainimg {
     width: 70vw;
@@ -22,12 +21,11 @@
   }
   .mainfirstdiv {
     width: 80%;
-    /* background: green; */
-    /* height: 30vh; */
     display: grid;
     justify-self: center;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 1.4%;
+    margin: 0 0 5vh 0;
   }
   .mcons {
     /* background: yellow; */
@@ -38,7 +36,7 @@
     border: 2px solid rgb(255, 105, 0);
     border-radius: 10px;
     padding: 1vh 1vw 1vh 1vw;
-    color:white;
+    color: white;
   }
   .mcons2 {
     display: flex;
@@ -49,11 +47,66 @@
   .mainhs {
     margin: 0 0 6vh 0;
   }
-  .mainh3{
-    margin:0;
+  .mainh3 {
+    margin: 0;
   }
   .mh3p {
     margin: 0;
+  }
+  .mainsecond {
+    /* background: green; */
+    width: 70%;
+    /* height: 30vh; */
+    display: grid;
+    justify-self: center;
+    justify-items: center;
+    padding:0;
+  }
+  .mainech5 {
+    text-align: center;
+  }
+  .mainsecp1 {
+    text-align: center;
+    margin:0vh 0 3vh 0;
+    color:white;
+  }
+  .mainseccon{
+    /* background:red; */
+    /* height:30vh; */
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap:3%;
+    margin: 0 0 6vh 0;
+    color:white;
+  }
+  .mainthird{
+    border: 2px solid rgb(255,105,0);
+    border-radius: 10px;
+    padding: 1vh 1vw 3vh 1vw;
+  }
+  .thhr{
+    width:20%;
+    background:rgb(255,105,0);
+    margin:0;
+  }
+  .mainthirdh4{
+    color:white;
+  }
+  .pcont{
+    display:flex;
+    margin: 0 0 2vh 0;
+  }
+  .mthirdp{
+    margin: 0 0 0 1vw;
+  }
+}
+
+@media all and (max-width:1360px){
+  .mainseccon{
+    width:60%;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap:5vh;
   }
 }
 
@@ -68,5 +121,8 @@
   }
   .mnames {
     padding: 0 0 0 2vw;
+  }
+   .mainseccon{
+    width:100%;
   }
 }

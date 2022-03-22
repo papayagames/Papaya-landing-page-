@@ -21,7 +21,7 @@ const Header = () => {
             <span className="hcolor">Publish your</span>
             <br />
             <span className="hcolor"> Game</span> in under
-            <br /> <span className="hcolor">15minutes.</span>
+            <br /> <span className="hcolor">15 minutes.</span>
           </h1>
           <p className="hp">
             DeFinitive Edition of Game Publishing Platform.
@@ -35,7 +35,6 @@ const Header = () => {
               <div className="hcon2">
                 WHITEPAPER <img src={Arrow} alt="" className="arrow" />
               </div>
-              {/* <hr className="hhr" /> */}
             </button>
           </div>
         </div>
