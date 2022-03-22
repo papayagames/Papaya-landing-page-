@@ -96,7 +96,9 @@ const Game = () => {
         <span className="hcolor">DeFinitive </span>Edition of Video Game Market
       </h1>
 
-      
+      <div className="role">
+        
+      </div>
     </div>
   );
 };
