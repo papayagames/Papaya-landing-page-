@@ -17,8 +17,9 @@
   }
   .joinedcard {
     display: grid;
-    /* background: red; */
+    background: red;
     grid-template-columns: 30% 30% 30%;
+    /* grid-template-columns:  repeat(3, 1fr); */
     column-gap: 5%;
     width: 60%;
     justify-items: center;
@@ -40,7 +41,7 @@
     margin: 0;
   }
   .cardsh1 {
-    font-size: clamp(18px, 1.7vw, 2.1vw);
+    font-size: clamp(22px, 1.7vw, 2.1vw);
   }
   .cardsbtn {
     background: transparent;
@@ -54,10 +55,11 @@
   }
   .cardsh5 {
     background: rgb(255, 108, 0);
-    padding: 0 0.5vw 0 0.5vw;
     border-radius: 4px;
     width: 40%;
     margin: -1vh;
+    text-align:center;
+    padding: 0 0.5vw 0 0.5vw;
   }
   .cardbtn1 {
     text-align: center;
@@ -73,13 +75,18 @@
 
 @media all and (max-width: 1230px) {
   .joinedcard {
-    width: 88%;
+    grid-template-columns: 32% 32% 32%;
+    column-gap:2%;
   }
+  .cardsh5{
+    width: 60%;
+  }
+
 }
 
 @media all and (max-width: 1036px) {
-  .joinedcard {
-    width: 97%;
+  .cards{
+    padding: 1.36vh 2.28vw 2.28vh 2.16vw;
   }
 }
 
