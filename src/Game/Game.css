@@ -1,53 +1,53 @@
 @media all and (max-width: 2500px) {
   .game {
     font-family: "Sora", sans-serif;
-    background: rgb(21,24,0);
+    background: rgb(21, 24, 0);
     padding: 5.4vh 0 0 0;
-    color:white;
-    display:grid;
-    justify-items:center;
+    color: white;
+    display: grid;
+    justify-items: center;
   }
-  .gametitle{
-      font-weight:400,Regular;
-      background:rgb(33,36,43);
-      border-radius:20px;
-      border:none;
-      padding: 1vh 2vw 1vh 2vw;
+  .gametitle {
+    font-weight: 400, Regular;
+    background: rgb(33, 36, 43);
+    border-radius: 20px;
+    border: none;
+    padding: 1vh 2vw 1vh 2vw;
   }
-  .gamep{
-      text-align:center;
-      /* background:red; */
-      width:26%;
-      font-weight:400, Regular;
-      margin:0 0 6.6vh 0;
+  .gamep {
+    text-align: center;
+    /* background:red; */
+    width: 26%;
+    font-weight: 400, Regular;
+    margin: 0 0 6.6vh 0;
   }
-  .gameimg{
-      width:49.24vw;
-  }
-}
-
-@media all and (max-width:1036px) and (orientation:portrait){
-.gametitle{
- font-size:10px;
-}
-.gamehead{
-font-size:16px;
-}
-.cardsp{
-font-size:17px;
-
-}
-}
-
-@media all and (max-width:768px){
-  .gamep{
-      width:66%;
-  }
-    .gameimg{
-      width:86vw;
-  }
-  .gamehead{
-    font-size:24px;
+  .gameimg {
+    width: 49.24vw;
   }
 }
 
+@media all and (max-width: 1036px) and (orientation: portrait) {
+  .gametitle {
+    font-size: 14px;
+    background: red;
+  }
+  .gamehead {
+    font-size: 24px;
+    background: red;
+  }
+  .cardsp {
+    font-size: 17px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .gamep {
+    width: 66%;
+  }
+  .gameimg {
+    width: 86vw;
+  }
+  .gamehead {
+    font-size: 24px;
+  }
+}
