@@ -28,10 +28,10 @@
 
 @media all and (max-width:1036px) and (orientation:portrait){
 .gametitle{
- font-size:14px;
+ font-size:10px;
 }
 .gamehead{
-font-size:20px;
+font-size:16px;
 }
 .cardsp{
 font-size:17px;

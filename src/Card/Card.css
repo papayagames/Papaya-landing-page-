@@ -17,7 +17,7 @@
   }
   .joinedcard {
     display: grid;
-    background: red;
+    /* background: red; */
     grid-template-columns: 30% 30% 30%;
     /* grid-template-columns:  repeat(3, 1fr); */
     column-gap: 5%;
