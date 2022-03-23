@@ -18,9 +18,7 @@
   }
   .joinedcard {
     display: grid;
-    /* background: red; */
     grid-template-columns: 30% 30% 30%;
-    /* grid-template-columns:  repeat(3, 1fr); */
     column-gap: 5%;
     width: 60%;
     justify-items: center;
@@ -32,7 +30,6 @@
   }
   .cards1 {
     background: rgb(33, 36, 43);
-    /* border-top: 4px solid rgb(196,86,0); */
     padding: 1.36vh 1.28vw 2.28vh 1.16vw;
     opacity: 0.8;
   }
@@ -76,8 +73,20 @@
 
 @media all and (max-width: 1230px) {
   .joinedcard {
-    grid-template-columns: 32% 32% 32%;
-    column-gap:2%;
+    grid-template-columns: 35% 35% ;
+    row-gap:4vh;
+    justify-content:center;
+    width:60%;
+  }
+  .cardsh5{
+    width: 60%;
+  }
+
+}
+
+@media all and (max-width: 1130px) {
+  .joinedcard {
+    grid-template-columns: 46% 46% ;
   }
   .cardsh5{
     width: 60%;
