@@ -3,6 +3,7 @@ import Navbar from "./Navbar/Navbar";
 import Header from "./Header/Header";
 import Game from "./Game/Game";
 import Main from "./Main/Main";
+import Lead from "./Lead/lead";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Navbar />
       <Header />
       <Game />
-      <Main/>
+      <Main />
+      <Lead/>
     </div>
   );
 }

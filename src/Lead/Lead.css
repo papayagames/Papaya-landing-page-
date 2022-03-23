@@ -1,0 +1,83 @@
+@media all and (max-width: 2500px) {
+  .leads {
+    /* background: red; */
+    border-top: 2px solid rgb(255, 105, 0);
+    display: grid;
+    justify-items: center;
+    background: rgb(5, 5, 5);
+    padding: 5vh 0 4vh 0;
+  }
+  .leadscon {
+    /* background: green; */
+    display: grid;
+    width: 50%;
+    grid-template-columns: repeat(2, 1fr);
+    align-self: center;
+    color: white;
+  }
+  .leadsdiv {
+    display: flex;
+    /* background: yellow; */
+    border: 2px dotted rgb(255, 105, 0);
+    padding: 1vh 1vw 1vh 1vw;
+    border-radius: 10px;
+    justify-content:center;
+  }
+  .leadsinput {
+    display: grid;
+    grid-template-columns: 95% 5%;
+    align-items: center;
+  }
+  .leads2p {
+    opacity: 0.6;
+    font-size: 13px;
+  }
+  input[type="text"] {
+    padding: 1.5vh;
+    border: 0;
+    border-top-left-radius: 10px;
+    width: 93%;
+    margin: 1vh 0 2vh 0;
+  }
+  .inputimg {
+    background: black;
+    border-right: 2px solid rgb(255, 105, 0);
+    padding-right:0.5vw;
+  }
+  .inputp2 {
+    color: rgb(255, 105, 0);
+    font-size: 13px;
+    margin: 0 1vw 0 0;
+  }
+  .lead1 {
+    width: 80%;
+    color: white;
+  }
+  .leads1h1 {
+    font-size: 23px;
+  }
+  .leads1btn {
+    color: white;
+    padding: 1.4vh 1.5vw 1.4vh 1.5vw;
+    background: rgb(255, 105, 0);
+    border: none;
+    border-radius: 6px;
+  }
+}
+
+
+@media all and (max-width:1036px){
+      .leadscon {
+    width: 60%;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap:5vh;
+  }
+}
+
+@media all and (max-width:768px){
+      .leadscon {
+    width: 80%;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap:5vh;
+  }
+}
