@@ -4,7 +4,8 @@ import Header from "./Header/Header";
 import Game from "./Game/Game";
 import Main from "./Main/Main";
 import Lead from "./Lead/lead";
-
+import Footer from "./Footer/Footer";
+import Last from "./Last/Last";
 function App() {
   return (
     <div>
@@ -12,7 +13,9 @@ function App() {
       <Header />
       <Game />
       <Main />
-      <Lead/>
+      <Lead />
+      <Footer />
+      <Last/>
     </div>
   );
 }

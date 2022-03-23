@@ -1,0 +1,39 @@
+@media all and (max-width: 2500px) {
+  .last {
+    background: rgb(5,5,5);
+    display: grid;
+    justify-items: center;
+    color: white;
+  }
+  .lastcon {
+    display: grid;
+    width: 56%;
+    grid-template-columns: repeat(1, 40% 55%);
+    align-items: center;
+    column-gap: 5%;
+  }
+  .lastdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+  }
+  p,
+  .lastp2 {
+    opacity: 0.6;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .last {
+    display: block;
+    padding: 0 0 0 5vw;
+  }
+  .lastcon {
+      width:80%;
+    grid-template-columns: repeat(1, 100%);
+  }
+  .lastdiv {
+    display: block;
+  }
+}
