@@ -21,6 +21,8 @@
   .mainimg {
     width: 70vw;
     margin: 0 0 6vh 0;
+    display:grid;
+    justify-self:center;
   }
   .mainfirstdiv {
     width: 80%;
