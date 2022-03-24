@@ -8,6 +8,7 @@ import Facebook from "../images/facebook.svg";
 import mouse from "../images/mouse.svg";
 import walletcopy from "../images/walletcopy.svg";
 import metamask from "../images/metamask.svg";
+import papaya from "../images/papaya.svg"
 
 const Header = () => {
   return (
@@ -67,7 +68,8 @@ const Header = () => {
           </p>
           <div>
             <div className="hcon4">
-              Contract: # 0x2ce...BA9f <img src={walletcopy} alt="" />
+              <img src={papaya} alt="" /> Contract: # 0x3fe...A9f{" "}
+              <img src={walletcopy} alt="" />
             </div>
           </div>
           <button className="hmbtn">
