@@ -15,6 +15,9 @@
     opacity: 0.6;
     color: white;
   }
+  .mainp, .mainhs{
+    text-align:center;
+  }
   .mainimg {
     width: 70vw;
     margin: 0 0 6vh 0;

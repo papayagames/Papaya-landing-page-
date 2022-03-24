@@ -38,7 +38,6 @@ const Footer = () => {
               <h2 className="gridh21">FOR CREATORS</h2>
               <p className="gridp">Doc</p>
               <p className="gridp">Whitepaper</p>
-              <p className="gridp">Saknci</p>
             </div>
 
             <div className="grid">

@@ -12,7 +12,7 @@ const Main = () => {
   return (
     <div className="main">
       <div className="mainfirst">
-        <p className="mainp">Cutting-edge technologies</p>
+        <p className="mainp">CUTTING-EDGE TECHNOLOGIES</p>
         <h3 className="mainhs">
           <span className="hcolor">Technologies we use</span>
         </h3>
@@ -66,9 +66,9 @@ const Main = () => {
 
       <div className="mainsecond">
         <h3 className="mainech5">
-          <span className="hcolor">Roadmap</span>
+          <span className="hcolor">ROADMAP</span>
         </h3>
-        <p className="mainsecp1">Look, when we are going to do all this</p>
+        <p className="mainsecp1">The next steps of our mission</p>
         <div className="mainseccon">
           <div className="mainthird">
             <hr className="thhr" />

@@ -15,7 +15,8 @@ const Header = () => {
       <div className="headermain">
         <div>
           <h4 className="hh4">
-            Video <span className="hcolor">GAME TOKEN</span> on Blockchain
+            Bringing quality Games to Web3.0
+            <span className="hcolor">.</span>
           </h4>
           <h1 className="hh1">
             <span className="hcolor">Publish your</span>
@@ -24,10 +25,11 @@ const Header = () => {
             <br /> <span className="hcolor">15 minutes.</span>
           </h1>
           <p className="hp">
-            DeFinitive Edition of Game Publishing Platform.
+            Development and Publishing tool for Gaming Studios.
             <br />
-            P2P swap with video games between players. <br />
-            Own the game like never before!
+            Sell it without intermediary ... Your Gateway
+            <br />
+            to move your games to Web3.
           </p>
           <div className="hbtncon">
             <button className="hbtn1">MORE ABOUT GAME TOKEN</button>
@@ -54,7 +56,8 @@ const Header = () => {
       <div className="hdetails">
         <div className="firstdiv">
           <div className="hcon3">
-            <img src={mouse} alt="mouse" style={{marginRight:"0.6vw"}}/>  Scroll to
+            <img src={mouse} alt="mouse" style={{ marginRight: "0.6vw" }} />{" "}
+            Scroll to
             <span className="hcolor"> learn more</span>
           </div>
         </div>

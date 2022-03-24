@@ -16,7 +16,7 @@ const lead = () => {
         <div className="lead2">
           <div className="leads2h3">Get whitelisted</div>
           <div className="leads2p">
-            Twój nick będzie reprezentować Twoją obecność na platformie HashUp
+            here we have some alpha for you ;)
           </div>
           <div className="leadsinput">
             <form>

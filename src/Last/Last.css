@@ -22,6 +22,9 @@
   .lastp2 {
     opacity: 0.6;
   }
+  .lasth1{
+    width:100%;
+  }
 }
 
 @media all and (max-width: 768px) {

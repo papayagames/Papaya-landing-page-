@@ -1,5 +1,6 @@
 import React from "react";
 import "./Last.css";
+import logo from "../images/logo.svg"
 
 const Last = () => {
     return (
@@ -7,7 +8,7 @@ const Last = () => {
         <div className="lastcon">
           <p className="lastp2">Copyright © 2021 by HashUp. All Rights Reserved. </p>
           <div className="lastdiv">
-            <h1 className="lasth1">#ODL</h1>
+            <img src={logo} alt="logo" className="lasth1"/>
             <p className="lastp2">Terms & conditions</p>
             <p className="lastp2">Privacy Policy</p>
             <p className="lastp2">CookiesPolicy</p>
