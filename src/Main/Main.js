@@ -119,7 +119,7 @@ const Main = () => {
             </div>
             <div className="pcont">
               <img src={shortc} alt="short" className="pcontimg" />
-              <p className="mthirdp">Growing the HashUp Ecosystem</p>
+              <p className="mthirdp">Growing the Papaya Ecosystem</p>
             </div>
             <div className="pcont">
               <img src={shortc} alt="short" className="pcontimg" />
@@ -134,7 +134,7 @@ const Main = () => {
             <h4 className="mainthirdh4">2023</h4>
             <div className="pcont">
               <img src={shortc} alt="short" className="pcontimg" />
-              <p className="mthirdp">HashUp on Solana</p>
+              <p className="mthirdp">Papaya on Solana</p>
             </div>
             <div className="pcont">
               <img src={shortc} alt="short" className="pcontimg" />
@@ -145,13 +145,13 @@ const Main = () => {
             <div className="pcont">
               <img src={shortc} alt="short" className="pcontimg" />
               <p className="mthirdp">
-                Gamexchange.io - First DEX for computer games (secondary market)
+                Fruit.Markets - First DEX for computer games (secondary market)
               </p>
             </div>
             <div className="pcont">
               <img src={shortc} alt="short" className="pcontimg" />
               <p className="mthirdp">
-                KickOff of HashUp’s (non-game) Software Publisher
+                KickOff of for (non-game) Software Publisher
               </p>
             </div>
           </div>
@@ -170,7 +170,7 @@ const Main = () => {
             <div className="pcont">
               <img src={shortc} alt="short" className="pcontimg" />
               <p className="mthirdp">
-                Going on mobile devices ... as major obsticles of cryptos mobile
+                Going on mobile devices ... as major obstacles of cryptos mobile
                 UX and therefore its large adoption will improve, we will bring
                 true ownership on your mobile device
               </p>

@@ -27,7 +27,7 @@ const Card = () => {
           </h1>
           <p className="cardsp">
             papaya.games wants to make the process of releasing games as simple
-            as can be. With GameContract we’re able to take the developer's
+            as can be. With FruitPublisher we’re able to take the developer's
             journey to the next level.
           </p>
           <button className="cardsbtn">
@@ -59,7 +59,7 @@ const Card = () => {
           <hr className="chr" />
           <h1 className="cardsh1">Browse all available games in one place.</h1>
           <p className="cardsp">
-            GameCap.io is the world's first price-tracking website for
+            Fruit.Market is the world's first price-tracking website for
             decentralized software licenses. View their current prices and data
             at a glance.
           </p>

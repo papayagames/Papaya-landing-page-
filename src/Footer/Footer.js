@@ -24,7 +24,7 @@ const Footer = () => {
               <p className="gridp">Katowice, Poland </p>
               <p className="gridp">Berlin, Germany</p>
               <p className="gridp"> Frankfurt (Main), Germany</p>
-              <p className="gridp">Germany Lisbon, Portugal</p>
+              <p className="gridp"> Lisbon, Portugal</p>
             </div>
 
             <div className="grid">
@@ -67,7 +67,6 @@ const Footer = () => {
               <span className="hcolor">SUBSCRIBE </span>TO THE NEWSLETTER.
             </h1>
             <p className="div2p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
             <div className="seconddiv2con">
               <form>

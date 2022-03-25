@@ -80,18 +80,18 @@ const Game = () => {
       </div>
 
       <h4 className="gametitle">
-        Game<span className="hcolor">Contract</span>.io
+        Fruit<span className="hcolor">Publisher</span>
       </h4>
       <h1 className="gamehead">
         Publish your game by creating GameContract
         <span className="hcolor">!</span>
       </h1>
       <p className="gamep">
-        Publish games without middlemen with the help of GameContract.io in 5
+        Publish games without middlemen with the help of FruitPublisher in 5
         minutes. Create Tokens on the blockchain in the Smart Contracts factory!
       </p>
       <button className="gamebtn2">
-        MORE ABOUT <span className="hcolor">GAMECONTRACT</span>
+        MORE ABOUT <span className="hcolor">FRUITPUBLISHER</span>
       </button>
       <img src={dash4} alt="gameimg" className="gameimg2" />
 
